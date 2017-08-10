@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/shoppinglist.css"/>
+    <link rel="stylesheet" href="css/metinfo.css"/>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="section">
+        <div>
+            <span>收货地址</span>
+            <a href="#" class="add">添加收货地址</a><br/>
+            <div>
+                <span>123456</span><br/>
+                <span>123456</span><br/>
+                <span>浙江 杭州  滨江区 gt</span>
+                <a href="#" class="glyphicon glyphicon-pencil"></a>
+            </div>
+            <div>
+                <span>123456</span><br/>
+                <span>123456</span><br/>
+                <span>浙江 杭州  滨江区 gt</span>
+                <a href="#" class="glyphicon glyphicon-pencil"></a>
+            </div>
+        </div>
+        <div>
+            <p>支付方式</p>
+            <p>
+                <select>
+                    <option value="" selected>支付宝支付</option>
+                    <option value="">银行卡支付</option>
+                    <option value="">货到付款</option>
+                </select>
+            </p>
+        </div>
+        <div>
+            <p>配送方式</p>
+            <p>
+                <select>
+                    <option value="" selected>圆通快递</option>
+                    <option value="">申通快递</option>
+                    <option value="">顺丰快递</option>
+                </select>
+            </p>
+        </div>
+        <div>
+            <p>
+                <span>商品</span>
+                <a href="shoppinglist.html">返回购物车<span class="glyphicon glyphicon-shopping-cart"></span></a>
+            </p>
+          <ul>
+              <li>
+                  <img src="img/img_hot/hot2-1-min.jpg" alt=""/>
+                  <span>矩形孔入耳式耳机</span>
+              </li>
+              <li>
+                  <span>149.00元</span>X<span>1</span>
+              </li>
+              <li>
+                  149.00元
+              </li>
+          </ul>
+        </div>
+        <div>
+            <textarea name="" id="" cols="30" rows="5" placeholder="给卖家留言......"></textarea>
+        </div>
+        <div>
+            <span>合计:<span>149.00元</span></span>
+            <a href="#">提交订单</a>
+        </div>
+    </div>
+    <div id="modal_container">
+    <div id="modal_shopping">
+        <div id="mask"></div>
+        <div>
+            <p><span>收货地址</span><a href="#" class="glyphicon glyphicon-remove"></a></p>
+            <ul>
+                 <li> <input type="text" placeholder="收货人姓名"/></li>
+                 <li><input type="text" placeholder="收货人电话号码"/></li>
+                  <li><select name="province" id="province">
+                     <option value="请选择">请选择</option>
+                     </select>
+                  </li>
+                <li><select name="city" id="city">
+                     <option value="请选择">请选择</option>
+                     </select>
+                </li>
+                <li><select name="town" id="town">
+                   <option value="请选择">请选择</option>
+                    </select>
+                </li>
+                <li>
+                    <textarea name="" id="" cols="30" rows="5" placeholder="详细地址"></textarea>
+                </li>
+            </ul>
+            <p>
+            <a href="#">保存</a>
+            <a href="#">取消</a>
+            </p>
+        </div>
+    </div>
+    </div>
+
+    <!--页面底部-->
+    <div id="footer">
+        <div>
+        <span>Copyright © 2017, MetInfo Digital Co., Ltd. All Rights Reserved.<br/>
+长沙米拓科技信息有限公司</span>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/area.js"></script>
+    <script src="js/select.js"></script>
+    <script src="js/other_header.js"></script>
+    <script src="js/metinfo.js"></script>
+</body>
+</html>

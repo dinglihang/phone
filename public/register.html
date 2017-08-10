@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<!--页头-->
+<header>
+    <div class="top_box">
+        <ul>
+             <li><img src="img/img_index/nav.png" alt="图片出错了"/></li>
+             <li>|</li>
+             <li>会员注册</li>
+        </ul>
+         <div><a href="index.html">返回首页</a></div>
+    </div>
+</header>
+<section>
+    <div class="register_container">
+    <div class="reg_box">
+        <div>
+            <span class="glyphicon glyphicon-user"></span>
+            <input type="text" placeholder="会员名(可以包含数字或字母,长度在6~12位之间)" id="uname"/>
+            <span id="tipMsg"></span>
+            <span class="glyphicon"><i></i></span>
+        </div>
+        <div>
+            <span class="glyphicon glyphicon-lock"></span>
+            <input type="password" placeholder="密码(可以包含数字或字母,长度在6~12位之间)" id="upwd"/>
+            <span class="glyphicon"></span>
+        </div>
+        <div>
+            <span class="glyphicon glyphicon-lock"></span>
+            <input type="password" placeholder="重复密码" id="upwd_repeat"/>
+            <span class="glyphicon"></span>
+        </div>
+        <div class="vertify">
+            <span class="glyphicon glyphicon-qrcode"></span>
+            <input type="text" id="code_input" placeholder="验证码" />
+             <div id="v_container" ></div>
+            <span class="glyphicon"></span>
+        </div>
+        <div>
+            <button class="btn">立即注册</button>
+        </div>
+        <div>
+             <a href="login.html">已有账号？</a>
+             <a><i></i>后跳转到登录页面</a>
+        </div>
+    </div>
+    </div>
+</section>
+<footer>
+    <div class="reg_footer">
+        <div>Copyright © 2017, MetInfo Digital Co., Ltd. All Rights Reserved.</div>
+        <div>长沙米拓科技信息有限公司</div>
+    </div>
+</footer>
+<script src="js/gVerify.js"></script>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>

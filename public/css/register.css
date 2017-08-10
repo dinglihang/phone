@@ -1,0 +1,157 @@
+/*ͨ��css���󲿷�Ԫ�ؾ߱�������*/
+body{
+    font:14px/1.5 "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo,
+    "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", Roboto, Arial,
+    sans-serif;
+    color:#666;
+    margin:0;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+a{
+    color:#666;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;!important;
+    color:#666;
+}
+a:focus{
+    text-decoration:none;!important;
+    color:#666;
+}
+header{
+    width:1024px;
+    height:100px;
+    background:#fff;
+    margin:0 auto;
+}
+section{
+    width:100%;
+    background:#EDEDED;
+}
+footer{
+    width:1024px;
+    margin:0 auto;
+}
+.top_box{
+    width:1024px;
+    margin:0 auto;
+    height:100px;
+    line-height:100px;
+}
+
+.top_box>ul>li{
+    float:left;
+    margin-right:20px;
+    font-size:25px;
+    color:#000;
+}
+.top_box>ul>li:nth-child(2){
+    color:#ddd;
+}
+.top_box>div>a{
+    color:#337AB7;
+    float:right;
+}
+
+/*���ñ���ʽ*/
+.register_container{
+    padding:50px;
+}
+.reg_box{
+
+    margin:0 auto;
+    width:580px;
+    height:400px;
+    padding:30px;
+    background:#fff;
+}
+.reg_box>div{
+    margin-bottom:20px;
+}
+.reg_box>div>span:first-child{
+    border:1px solid #ccc;
+    border-right:none;
+    box-sizing:border-box;
+    width:40px;
+    height:40px;
+    background:#eee;
+    text-align:center;
+    line-height:30px;
+    padding-top:3px;
+    position:relative;
+    left:3px;
+}
+.reg_box>div>input{
+    border:1px solid #ccc;
+    box-sizing:border-box;
+    width:360px;
+    height:40px;
+    padding:6px 12px;
+}
+.reg_box>div>span:last-child{
+    margin-left:10px;
+    color:#fff;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    text-align:center;
+    line-height:20px;
+}
+#tipMsg{
+    font-size:5px;
+    color:red;
+}
+.glyphicon-ok{
+    background:#00ff00;
+}
+.glyphicon-remove{
+    background:#f00;
+}
+.reg_box>div:nth-child(5)>button{
+    width:405px;
+    color:#fff;
+    background:#00ff00;
+    font-size:20px;
+}
+.reg_box>div:nth-child(5)>button:hover{
+    background:#50D350;
+}
+.reg_box>div:last-child>a{
+    color:#007aff;
+}
+.reg_box>div:last-child>a:first-child:hover{
+    text-decoration:underline;
+}
+.reg_box>div:last-child>a:last-child{
+    display:none;
+  margin-left:100px;
+    color:#2299dd;
+}
+.reg_footer{
+  margin-top:50px;
+    height:auto;
+    background:#fff;
+    width:100%;
+    text-align:center;
+    padding-top:30px;
+}
+
+
+
+/*��֤��*/
+.reg_box>div.vertify>input{
+    width:200px;
+}
+/*��֤����ʽ*/
+#v_container{
+    display:inline-block;
+   width:157px;
+    height:40px;
+    vertical-align:bottom;
+}
